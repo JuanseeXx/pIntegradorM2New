@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logoCabecera.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Latte Lugar</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light" style="background-color: #ffffff;">
+            <a class="navbar-brand" href="index.html"><img src="./logo.png" width="200px" style="margin-left: 0.5rem;"></a>
+            <ul class="nav">
+                <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#mapa">Ubicación</a>
+                <li class="nav-item">
+                <a class="nav-link" href="#stripe">Menú</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="acercade.html">Acerca de</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="cover d-flex justify-content-center align-items-center flex-column">
+            <h1>
+                Latte Lugar
+            </h1>
+            <p>
+                El aroma que despierta sonrisas, el sabor que crea momentos.
+            </p>
+            <button type="button" class="btn btn-outline-success">
+                Conoce más
+            </button>
+        </div>
+    </header>
+    <section>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="container mt-5 mb-5">
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image: url(./rsz_1rodrigo-flores-sn87tq_o7zs-unsplash.jpg);"></div>
+                        <div class="card-body">
+                        <h5 class="card-title">Cultivo Ecológico Responsable</h5>
+                        <p class="card-text">Trabajamos con caficultores responsables que usan tratamientos ecológicos para cultivar granos de café de alta calidad y sostenibles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="container mt-5 mb-5">
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image: url(./pariwat-pannium-10lCujnC8LU-unsplash.jpeg);"></div>
+                        <div class="card-body">
+                        <h5 class="card-title">Comercio Justo</h5>
+                        <p class="card-text">Adquirir café en Latte Lugar significaque tu dinero va directamente y de manera responsable a los caficultoresy comunidades locales, promoviendo 
+                            prácticas comerciales justas y apoyando el desarrollo económico en las regiones cafetaleras.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="container mt-5 mb-5">
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image: url(./nathan-dumlao-zUNs99PGDg0-unsplash.jpeg);"></div>
+                        <div class="card-body">
+                        <h5 class="card-title">Pasión por el Café</h5>
+                        <p class="card-text">Nos apasiona el café por lo que siempre trabajamos para servirte café de calidad que no solo sea delicioso, sino también ético y sostenible, desde el grano hasta la taza.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: #f1f1f1;">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-5" style="margin-top: 30px">
+                    <img src="./CoffeeDoddle.svg" alt="">
+                </div>
+                <div class="col-12 col-sm-6" style="margin-top: 30px">
+                    <h3>¡Inicia tu día con una buena taza de café!</h3>
+                    <p>Ordena tu Café Latte a Domicilio o busca el Lugar más cercano</p>
+                    <a class="ir-a-mapa" href="#mapa">Ir al Mapa</a>
+                </div>
+            </div>
+            <form action="">
+                <label for="email">Correo Electrónico</label>
+                    <div class="d-flex">
+                        <div class="flex-fill mr-2" style="margin-bottom: 30px;">
+                            <input type="email" id="email" class="form-control">
+                        </div>
+                        <button type="button" style="margin-bottom: 30px;" class="btn btn-success">Enviar</button>
+                    </div>
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5 mb-5" id="stripe">
+            <div class="product-stripe">
+                <div class="stripe-container">
+                    <div class="cardCoffe">
+                        <div title="Taza de espresso" class="cover cover-small" style="background-image: url(./coffe1.jpg);"></div>
+                        <div class="card-body">
+                        <h5 class="card-title">Espresso</h5>
+                        <span class="badge badge-success">$5500 COP</span>
+                        </div>
+                    </div>
+
+                    <div class="cardCoffe">
+                        <div title="Cafe Americano" class="cover cover-small" style="background-image: url(./coffe2.jpeg);"></div>
+                        <div class="card-body">
+                        <h5 class="card-title">Café Americano</h5>
+                        <span class="badge badge-success">$8500 COP</span>
+                        </div>
+                    </div>
+
+                    <div class="cardCoffe">
+                        <div title="Taza de Latte" class="cover cover-small" style="background-image: url(./coffe3.jpg);"></div>
+                        <div class="card-body">
+                        <h5 class="card-title">Latte</h5>
+                        <span class="badge badge-success">$11500 COP</span>
+                        </div>
+                    </div>
+
+                    <div class="cardCoffe">
+                        <div title="Cafe Mocha" class="cover cover-small" style="background-image: url(./coffe4.jpg);"></div>
+                        <div class="card-body">
+                        <h5 class="card-title">Mocha</h5>
+                        <span class="badge badge-success">$15900 COP</span>
+                        </div>
+                    </div>
+                    <!--NUEVAS TARJETAS-->
+                    <div class="cardCoffe">
+                        <div title="Cafe Mocha" class="cover cover-small" style="background-image: url(./coffe5.jpg);"></div>
+                        <div class="card-body">
+                        <h5 class="card-title">Tinto</h5>
+                        <span class="badge badge-success">$2000 COP</span>
+                        </div>
+                    </div>
+
+                    <div class="cardCoffe">
+                        <div title="Cafe Mocha" class="cover cover-small" style="background-image: url(./coffe6.jpg);"></div>
+                        <div class="card-body">
+                        <h5 class="card-title">Macchiato</h5>
+                        <span class="badge badge-success">$8000 COP</span>
+                        </div>
+                    </div>
+
+                    <div class="cardCoffe">
+                        <div title="Cafe Mocha" class="cover cover-small" style="background-image: url(./coffe7.jpg);"></div>
+                        <div class="card-body">
+                        <h5 class="card-title">Café Irlandés</h5>
+                        <span class="badge badge-success">$14900 COP</span>
+                        </div>
+                    </div>
+
+                    <div class="cardCoffe">
+                        <div title="Cafe Mocha" class="cover cover-small" style="background-image: url(./coffe8.jpeg);"></div>
+                        <div class="card-body">
+                        <h5 class="card-title">Café Árabe</h5>
+                        <span class="badge badge-success">$16900 COP</span>
+                        </div>
+                    </div>
+
+                    <div class="cardCoffe">
+                        <div title="Cafe Mocha" class="cover cover-small" style="background-image: url(./coffe9.jpg);"></div>
+                        <div class="card-body">
+                        <h5 class="card-title">Café Cortado</h5>
+                        <span class="badge badge-success">$10900 COP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4" style="justify-content: center">
+                    <img src="./FRASEE.jpeg" alt="" width="345px" style="border-radius: .25rem;">
+                </div>
+                <div class="col-12 col-sm-6" style="justify-content: center;">
+                    <h3>"La vida comienza después de un buen café."</h3>
+                    <br>
+                    <p>En nuestra cafetería, cada taza de café cuenta una historia. Es el aroma que despierta tus sentidos por la mañana, el calor reconfortante en tus manos durante una charla con amigos y el impulso necesario para seguir adelante. Aquí, no solo servimos café, sino que también ofrecemos momentos de pausa y conexión. Creemos que un buen café puede transformar tu día y llenarte de inspiración. Ven, siéntate y descubre cómo la magia de un café bien preparado puede hacer que cada día sea extraordinario.</p>
+                    <p>Además, nos enorgullece seleccionar cuidadosamente cada grano de café, colaborando con productores locales que comparten nuestra pasión por la calidad y la sostenibilidad. Cada sorbo de nuestras bebidas no solo te conecta con nosotros, sino también con las manos trabajadoras que cultivan y cosechan con esmero. Queremos que cada visita sea una oportunidad para descubrir nuevos sabores, explorar combinaciones únicas y disfrutar de ese momento especial que solo un buen café puede ofrecer. Aquí, en nuestra cafetería, cada día es una celebración de la artesanía y el amor por el café.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5 mb-5" id="mapa">
+            <h4>
+                ¡TE ESPERAMOS!
+            </h4>
+            <p>
+                240 W Oakland Ave, Columbus, OH 43201, Estados Unidos
+            </p>
+            <div class="responsive-iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12223.73624806385!2d-83.02397024355686!3d40.00992040755301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88388e98cd92dfbf%3A0x179013cc9b21631f!2sTuttle%20Park%20Community%20Center!5e0!3m2!1ses-419!2sco!4v1715323830442!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4 class="title-foo">Phone</h4>
+                <p id="cw">+1 (548)7894586</p>
+            </div>
+            <div class="content-foo">
+                <h4 class="title-foo">Email</h4>
+                <p id="cw">contactLatteLugar@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4 class="title-foo">Location</h4>
+                <p id="cw">240 W Oakland Ave, Columbus, OH 43201, Estados Unidos</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">© Juan Sebastian Diaz | María Camila Castrillón | Katerin Gutierrez Castañeda</h2>
+    </footer>
+</body>
+</html>
